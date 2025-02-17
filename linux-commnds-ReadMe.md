@@ -130,146 +130,180 @@ echo - Display a Line of Text
 Outputs text to the terminal or a file.
 
 Example:
-
+```
 echo "Hello, world!"
+```
+
 Prints "Hello, world!" to the terminal.
-bash
-Copy
+
+```
 echo "Hello" > file.txt
+```
 Writes "Hello" to file.txt.
-11. man - Manual Pages
+
+
+man - Manual Pages
 Displays the manual for a command.
 
 Example:
-bash
-Copy
+````
 man ls
+```
 Shows the manual page for the ls command.
-12. touch - Create an Empty File
+
+touch - Create an Empty File
+
 Creates an empty file or updates the timestamp of an existing file.
 
 Example:
-bash
-Copy
+```
 touch newfile.txt
-13. chmod - Change File Permissions
+```
+
+chmod - Change File Permissions
+
 Modifies the permissions of files or directories.
 
 Example:
-bash
-Copy
+```
 chmod 755 script.sh
+```
 Sets the permissions to rwxr-xr-x for script.sh.
-14. chown - Change File Owner/Group
+
+chown - Change File Owner/Group
+
 Changes the owner or group of a file.
 
 Example:
-bash
-Copy
+```
 chown user:group file.txt
+```
 Changes the owner to user and group to group for file.txt.
-15. ps - Show Running Processes
+
+ps - Show Running Processes
+
 Displays active processes.
 
 Example:
-bash
-Copy
+```
 ps
+```
 Lists processes for the current user.
-bash
-Copy
+
+```
 ps aux
+```
 Lists all processes running on the system.
-16. kill - Terminate a Process
+
+kill - Terminate a Process
+
 Terminates a process by its ID.
 
 Example:
-bash
-Copy
+```
 kill 1234
+```
 Kills the process with ID 1234.
-17. df - Disk Space Usage
+
+df - Disk Space Usage
+
 Shows the disk space usage of the file system.
 
 Example:
-bash
-Copy
+```
 df -h
+```
 Displays disk space usage in human-readable format (e.g., GB, MB).
-18. top - Display System Resource Usage
+
+top - Display System Resource Usage
+
 Shows real-time system processes and resource usage.
 
 Example:
-bash
-Copy
+```
 top
-19. grep - Search for Text in Files
+```
+grep - Search for Text in Files
+
 Searches for patterns in files.
 
 Example:
-bash
-Copy
+```
 grep "text" file.txt
+```
 Searches for the word "text" in file.txt.
-20. wget - Download Files from the Web
+
+wget - Download Files from the Web
+
 Downloads files from the internet.
 
 Example:
-bash
-Copy
+```
 wget http://example.com/file.txt
-21. tar - Archive and Extract Files
+```
+tar - Archive and Extract Files
+
 Used to create and extract compressed archives.
 
 Example (Create):
-bash
-Copy
+
+```
 tar -cvf archive.tar folder/
+```
 Creates a tar archive of folder.
+
 Example (Extract):
-bash
-Copy
+```
 tar -xvf archive.tar
+```
 Extracts the contents of archive.tar.
-22. sudo - Execute a Command as Another User (Usually Root)
+
+sudo - Execute a Command as Another User (Usually Root)
+
 Executes commands with superuser privileges.
 
 Example:
-bash
-Copy
+```
 sudo apt update
+```
 Runs apt update with root privileges.
-23. history - Show Command History
+
+history - Show Command History
+
 Displays the history of commands entered.
 
 Example:
-bash
-Copy
+```
 history
-24. nano / vim - Text Editors
+```
+nano / vim - Text Editors
+
 Used to edit files from the command line.
 
 Example:
-bash
-Copy
+```
 nano file.txt
+```
 Opens file.txt in the nano text editor.
-bash
-Copy
+```
 vim file.txt
+```
 Opens file.txt in the vim text editor.
-25. shutdown - Shutdown or Restart the System
+
+shutdown - Shutdown or Restart the System
+
 Shuts down or restarts the system.
 
 Example (Shutdown):
-bash
-Copy
+```
 sudo shutdown now
+```
+
 Shuts down the system immediately.
 Example (Restart):
-bash
-Copy
+```
 sudo reboot
+```
 Restarts the system.
 
 
