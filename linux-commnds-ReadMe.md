@@ -35,12 +35,12 @@ Examples:
 ```
 cd /home/user
 ```
-Moves one directory up.
+# cd .. -  Moves one directory up.
 ```
 cd ..
 ```
 
-pwd - Print Working Directory
+# pwd - Print Working Directory
 
 Displays the path of the current working directory.
 
@@ -48,7 +48,7 @@ Example:
 ```
 pwd
 ```
-mkdir - Make Directory
+# mkdir - Make Directory
 
 Creates a new directory.
 
@@ -56,7 +56,7 @@ Example:
 ```
 mkdir new_folder
 ```
-rm -f - Remove Directory
+# rm -f - Remove Directory
 
 Deletes directory.
 
@@ -65,23 +65,23 @@ Example:
 rmd -f folder
 ```
 
-rm - Remove Files or Directories
+# rm - Remove Files
 
-Deletes files or directories. Use with caution.
+Deletes files. Use with caution.
 
 Example:
 ```
 rm file.txt
 ```
 
-Deletes a file named file.txt.
+# Deletes a file named file.txt.
 
 ```
-rm -r folder
+# rm -f folder
 ```
 Deletes a directory and its contents recursively.
 
-cp - Copy Files and DirectoriesCopies files or directories.
+# cp - Copy Files and DirectoriesCopies files or directories.
 
 Example:
 
@@ -96,7 +96,7 @@ cp -r folder1/ folder2/
 Copies folder1 and all its contents to folder2.
 
 
-mv - Move or Rename Files/Directories
+# mv - Move or Rename Files/Directories
 
 Moves or renames files and directories.
 
@@ -113,7 +113,7 @@ mv oldname.txt newname.txt
 ```
 Renames oldname.txt to newname.txt.
 
-cat - Display File Content
+# cat - Display File Content
 
 Displays the content of a file.
 
@@ -123,7 +123,7 @@ cat file.txt
 ```
 Displays the content of file.txt.
 
-echo - Display a Line of Text
+# echo - Display a Line of Text
 Outputs text to the terminal or a file.
 
 Example:
@@ -131,7 +131,7 @@ Example:
 echo "Hello, world!"
 ```
 
-Prints "Hello, world!" to the terminal.
+# Prints "Hello, world!" to the terminal.
 
 ```
 echo "Hello" > file.txt
@@ -139,7 +139,7 @@ echo "Hello" > file.txt
 Writes "Hello" to file.txt.
 
 
-man - Manual Pages
+# man - Manual Pages
 
 Displays the manual for a command.
 
@@ -150,7 +150,7 @@ man ls
 ```
 Shows the manual page for the ls command.
 
-touch - Create an Empty File
+# touch - Create an Empty File
 
 Creates an empty file or updates the timestamp of an existing file.
 
@@ -160,7 +160,7 @@ Example:
 touch newfile.txt
 ```
 
-chmod - Change File Permissions
+# chmod - Change File Permissions
 
 Modifies the permissions of files or directories.
 
@@ -171,7 +171,7 @@ chmod 755 script.sh
 ```
 Sets the permissions to rwxr-xr-x for script.sh.
 
-chown - Change File Owner/Group
+# chown - Change File Owner/Group
 
 Changes the owner or group of a file.
 
@@ -182,7 +182,7 @@ chown user:group file.txt
 ```
 Changes the owner to user and group to group for file.txt.
 
-ps - Show Running Processes
+# ps - Show Running Processes
 
 Displays active processes.
 
@@ -198,7 +198,7 @@ ps aux
 ```
 Lists all processes running on the system.
 
-kill - Terminate a Process
+# kill - Terminate a Process
 
 Terminates a process by its ID.
 
@@ -209,7 +209,7 @@ kill 1234
 ```
 Kills the process with ID 1234.
 
-df - Disk Space Usage
+# df - Disk Space Usage
 
 Shows the disk space usage of the file system.
 
@@ -219,7 +219,7 @@ df -h
 ```
 Displays disk space usage in human-readable format (e.g., GB, MB).
 
-top - Display System Resource Usage
+# top - Display System Resource Usage
 
 Shows real-time system processes and resource usage.
 
@@ -227,7 +227,7 @@ Example:
 ```
 top
 ```
-grep - Search for Text in Files
+# grep - Search for Text in Files
 
 Searches for patterns in files.
 
@@ -237,7 +237,7 @@ grep "text" file.txt
 ```
 Searches for the word "text" in file.txt.
 
-wget - Download Files from the Web
+# wget - Download Files from the Web
 
 Downloads files from the internet.
 
@@ -245,7 +245,7 @@ Example:
 ```
 wget http://example.com/file.txt
 ```
-tar - Archive and Extract Files
+# tar - Archive and Extract Files
 
 Used to create and extract compressed archives.
 
@@ -254,7 +254,7 @@ Example (Create):
 ```
 tar -cvf archive.tar folder/
 ```
-Creates a tar archive of folder.
+# Creates a tar archive of folder.
 
 Example (Extract):
 ```
@@ -262,7 +262,7 @@ tar -xvf archive.tar
 ```
 Extracts the contents of archive.tar.
 
-sudo - Execute a Command as Another User (Usually Root)
+# sudo - Execute a Command as Another User (Usually Root)
 
 Executes commands with superuser privileges.
 
@@ -272,7 +272,7 @@ sudo apt update
 ```
 Runs apt update with root privileges.
 
-history - Show Command History
+# history - Show Command History
 
 Displays the history of commands entered.
 
@@ -280,7 +280,7 @@ Example:
 ```
 history
 ```
-nano / vim - Text Editors
+# nano / vim - Text Editors
 
 Used to edit files from the command line.
 
@@ -294,7 +294,7 @@ vim file.txt
 ```
 Opens file.txt in the vim text editor.
 
-shutdown - Shutdown or Restart the System
+# shutdown - Shutdown or Restart the System
 
 Shuts down or restarts the system.
 
