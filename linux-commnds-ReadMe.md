@@ -1,7 +1,6 @@
 # Linux Commands
-## Basic
 
-ls - List files and directories
+# ls - List files and directories
 
 Displays the contents of a directory.
 
@@ -27,7 +26,7 @@ ls -a - List the hidden files.
 ```
 ls -a
 ```
-cd - Change Directory
+# cd - Change Directory
 
 Used to change the current directory.
 
