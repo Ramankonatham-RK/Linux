@@ -2,32 +2,30 @@
 ## Basic
 
 ls - List files and directories
+
 Displays the contents of a directory.
 
 Example:
 ```
 ls
 ```
-
 Lists the files in the current directory.
+
 ```
 ls /home
-
 ```
 Lists files in the /home directory.
 
+
 ls -l - Long Listing ( Shows more details )
-
 ```
-ls -a
-
+ls -l
 ```
 
 ls -a - List the hidden files.
 
 ```
 ls -a
-
 ```
 cd - Change Directory
 
@@ -59,13 +57,13 @@ Example:
 ```
 mkdir new_folder
 ```
-rmdir - Remove Directory
+rm -f - Remove Directory
 
-Deletes an empty directory.
+Deletes directory.
 
 Example:
 ```
-rmdir empty_folder
+rmd -f folder
 ```
 
 rm - Remove Files or Directories
@@ -307,6 +305,7 @@ sudo shutdown now
 ```
 
 Shuts down the system immediately.
+
 Example (Restart):
 ```
 sudo reboot
