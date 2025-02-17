@@ -143,11 +143,12 @@ Writes "Hello" to file.txt.
 
 
 man - Manual Pages
+
 Displays the manual for a command.
 
 Example:
 
-````
+```
 man ls
 ```
 Shows the manual page for the ls command.
