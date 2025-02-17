@@ -146,6 +146,7 @@ man - Manual Pages
 Displays the manual for a command.
 
 Example:
+
 ````
 man ls
 ```
@@ -156,6 +157,7 @@ touch - Create an Empty File
 Creates an empty file or updates the timestamp of an existing file.
 
 Example:
+
 ```
 touch newfile.txt
 ```
@@ -165,6 +167,7 @@ chmod - Change File Permissions
 Modifies the permissions of files or directories.
 
 Example:
+
 ```
 chmod 755 script.sh
 ```
@@ -175,6 +178,7 @@ chown - Change File Owner/Group
 Changes the owner or group of a file.
 
 Example:
+
 ```
 chown user:group file.txt
 ```
@@ -185,6 +189,7 @@ ps - Show Running Processes
 Displays active processes.
 
 Example:
+
 ```
 ps
 ```
@@ -200,6 +205,7 @@ kill - Terminate a Process
 Terminates a process by its ID.
 
 Example:
+
 ```
 kill 1234
 ```
